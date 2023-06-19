@@ -24,6 +24,19 @@ html * {
   animation: kalp 0.75s infinite ease-in-out;
 }
 
+.main h1 {
+  font-weight: 700 !important;
+  font-size: 30px;
+}
+.main h1 ion-icon {
+  position: relative;
+  top: 3px;
+}
+
+.rounded-tucish {
+  border-radius: 20px;
+}
+
 @keyframes kalp {
   0% {
     transform: scale(1);
