@@ -38,6 +38,18 @@ html * {
             top: 3px;
         }
     }
+    .table {
+        ion-icon {
+            position: relative;
+            top: 3px;
+        }
+        tr {
+            transition: all 0.25s ease-in-out;
+            &:hover {
+                transform: scale(0.95);
+            }
+        }
+    }
 }
 
 .rounded-tucish {

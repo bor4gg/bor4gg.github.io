@@ -32,6 +32,16 @@ html * {
   position: relative;
   top: 3px;
 }
+.main .table ion-icon {
+  position: relative;
+  top: 3px;
+}
+.main .table tr {
+  transition: all 0.25s ease-in-out;
+}
+.main .table tr:hover {
+  transform: scale(0.95);
+}
 
 .rounded-tucish {
   border-radius: 20px;
