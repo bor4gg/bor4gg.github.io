@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
 html * {
   font-family: "Inter", sans-serif;
+  font-size: 14px;
 }
 
 .navbar .nav-link {
@@ -31,6 +32,7 @@ html * {
 .main h1 ion-icon {
   position: relative;
   top: 3px;
+  font-size: 30px;
 }
 .main .table ion-icon {
   position: relative;
@@ -41,6 +43,20 @@ html * {
 }
 .main .table tr:hover {
   transform: scale(0.95);
+}
+.main p {
+  font-weight: 500;
+  font-size: 16px;
+}
+.main p .en-dusuk {
+  color: #d44242;
+  font-size: 16px;
+  font-weight: 700 !important;
+}
+.main p .ortalama {
+  color: #309b80;
+  font-size: 16px;
+  font-weight: 700 !important;
 }
 
 .rounded-tucish {

@@ -2,6 +2,7 @@
 
 html * {
     font-family: 'Inter', sans-serif;
+    font-size: 14px;
 }
 
 
@@ -36,6 +37,7 @@ html * {
         ion-icon {
             position: relative;
             top: 3px;
+            font-size: 30px;
         }
     }
     .table {
@@ -48,6 +50,20 @@ html * {
             &:hover {
                 transform: scale(0.95);
             }
+        }
+    }
+    p {
+        font-weight: 500;
+        font-size: 16px;
+        .en-dusuk {
+            color: #d44242;
+            font-size: 16px;
+            font-weight: 700 !important;
+        }
+        .ortalama {
+            color: #309b80;
+            font-size: 16px;
+            font-weight: 700 !important;
         }
     }
 }
